@@ -12,6 +12,7 @@ struct Second_Page: View {
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
     }
+    
     var body: some View {
         
         LinearGradient(gradient: Gradient(colors: [Color(hex: 0x203032), Color(hex: 0x2F514F)]), startPoint: .top, endPoint: .bottom)
@@ -34,7 +35,7 @@ struct Second_Page: View {
                     
                     
                     
-                    NavigationLink(destination: Second_Page().navigationBarBackButtonHidden(true).navigationBarHidden(true))
+                    NavigationLink(destination: MainPage().navigationBarBackButtonHidden(true).navigationBarHidden(true))
                     {
                         ZStack {
                             
