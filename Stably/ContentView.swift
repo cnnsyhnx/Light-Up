@@ -31,10 +31,10 @@ struct ContentView: View {
                             .resizable()
                             .frame(width: 145.36, height: 224.54).offset(CGSize(width: 0, height: -150)).offset(y: 100)
                         //Welcome to light up
-                        Text("   Welcome to \n").font(.custom("AmaticSC-Bold", size: 24)).foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))) + Text("light up").font(.custom("AmaticSC-Bold", size: 52)).foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
-                        
+                        Text("   Welcome to \n").font(.custom("AmaticSC-Bold", size: 24)).foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))) + Text("Stably").font(.custom("AmaticSC-Bold", size: 52)).foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
+
                         //Light up will help you use...
-                        Text("Light up will help you use\n your flashlight\nfeature in a more\n professional way").font(.custom("Montserrat-Light", size: 20)).foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))).multilineTextAlignment(.center).padding(10)
+                        Text("Stably will help you use\n your flashlight\nfeature in a more\n professional way").font(.custom("Montserrat-Light", size: 20)).foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))).multilineTextAlignment(.center).padding(10)
                         //Rectangle 2
                         
                         NavigationLink(destination: Second_Page().navigationBarBackButtonHidden(true).navigationBarHidden(true))

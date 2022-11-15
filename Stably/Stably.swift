@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Light_UpApp: App {
+struct Stably: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -84,7 +84,7 @@
 		8362008529229AA1008935CE /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362008429229AA1008935CE /* MainPage.swift */; };
 		8362008629229AA1008935CE /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362008429229AA1008935CE /* MainPage.swift */; };
 		8362008729229AA1008935CE /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362008429229AA1008935CE /* MainPage.swift */; };
-		8362FFE9291EF039008935CE /* Light_UpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362FFE8291EF039008935CE /* Light_UpApp.swift */; };
+		8362FFE9291EF039008935CE /* Stably.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362FFE8291EF039008935CE /* Stably.swift */; };
 		8362FFEB291EF039008935CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362FFEA291EF039008935CE /* ContentView.swift */; };
 		8362FFED291EF03A008935CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8362FFEC291EF03A008935CE /* Assets.xcassets */; };
 		8362FFF0291EF03A008935CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8362FFEF291EF03A008935CE /* Preview Assets.xcassets */; };
@@ -113,7 +113,7 @@
 		83620005291EF03B008935CE /* Light_UpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_UpUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		83620015291FBCC2008935CE /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
 		83620016291FBCDC008935CE /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
-		83620019291FBF05008935CE /* Light-Up-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Light-Up-Info.plist"; sourceTree = SOURCE_ROOT; };
+		83620019291FBF05008935CE /* Stably.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Stably.plist; sourceTree = SOURCE_ROOT; };
 		8362002429215187008935CE /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 		8362002529215187008935CE /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		8362002629215187008935CE /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -137,14 +137,14 @@
 		8362007C292295A8008935CE /* FadeOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOut.swift; sourceTree = "<group>"; };
 		8362008029229968008935CE /* TorchFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchFunction.swift; sourceTree = "<group>"; };
 		8362008429229AA1008935CE /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
-		8362FFE5291EF039008935CE /* Light Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8362FFE8291EF039008935CE /* Light_UpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_UpApp.swift; sourceTree = "<group>"; };
+		8362FFE5291EF039008935CE /* Stably.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stably.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8362FFE8291EF039008935CE /* Stably.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stably.swift; sourceTree = "<group>"; };
 		8362FFEA291EF039008935CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8362FFEC291EF03A008935CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8362FFEF291EF03A008935CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8362FFF5291EF03B008935CE /* Light UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8362FFF5291EF03B008935CE /* StablyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StablyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8362FFF9291EF03B008935CE /* Light_UpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_UpTests.swift; sourceTree = "<group>"; };
-		8362FFFF291EF03B008935CE /* Light UpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light UpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8362FFFF291EF03B008935CE /* StablyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StablyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,13 +172,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83620002291EF03B008935CE /* Light UpUITests */ = {
+		83620002291EF03B008935CE /* Stably UITests */ = {
 			isa = PBXGroup;
 			children = (
 				83620003291EF03B008935CE /* Light_UpUITests.swift */,
 				83620005291EF03B008935CE /* Light_UpUITestsLaunchTests.swift */,
 			);
-			path = "Light UpUITests";
+			path = "Stably UITests";
 			sourceTree = "<group>";
 		};
 		83620013291FBC9A008935CE /* Fonts */ = {
@@ -211,9 +211,9 @@
 		8362FFDC291EF039008935CE = {
 			isa = PBXGroup;
 			children = (
-				8362FFE7291EF039008935CE /* Light Up */,
-				8362FFF8291EF03B008935CE /* Light UpTests */,
-				83620002291EF03B008935CE /* Light UpUITests */,
+				8362FFE7291EF039008935CE /* Stably */,
+				8362FFF8291EF03B008935CE /* Stably Tests */,
+				83620002291EF03B008935CE /* Stably UITests */,
 				8362FFE6291EF039008935CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -221,18 +221,18 @@
 		8362FFE6291EF039008935CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8362FFE5291EF039008935CE /* Light Up.app */,
-				8362FFF5291EF03B008935CE /* Light UpTests.xctest */,
-				8362FFFF291EF03B008935CE /* Light UpUITests.xctest */,
+				8362FFE5291EF039008935CE /* Stably.app */,
+				8362FFF5291EF03B008935CE /* StablyTests.xctest */,
+				8362FFFF291EF03B008935CE /* StablyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8362FFE7291EF039008935CE /* Light Up */ = {
+		8362FFE7291EF039008935CE /* Stably */ = {
 			isa = PBXGroup;
 			children = (
-				83620019291FBF05008935CE /* Light-Up-Info.plist */,
-				8362FFE8291EF039008935CE /* Light_UpApp.swift */,
+				83620019291FBF05008935CE /* Stably.plist */,
+				8362FFE8291EF039008935CE /* Stably.swift */,
 				8362FFEA291EF039008935CE /* ContentView.swift */,
 				8362007029215BBB008935CE /* Second Page.swift */,
 				8362008429229AA1008935CE /* MainPage.swift */,
@@ -243,7 +243,7 @@
 				8362007C292295A8008935CE /* FadeOut.swift */,
 				8362008029229968008935CE /* TorchFunction.swift */,
 			);
-			path = "Light Up";
+			path = Stably;
 			sourceTree = "<group>";
 		};
 		8362FFEE291EF03A008935CE /* Preview Content */ = {
@@ -254,20 +254,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8362FFF8291EF03B008935CE /* Light UpTests */ = {
+		8362FFF8291EF03B008935CE /* Stably Tests */ = {
 			isa = PBXGroup;
 			children = (
 				8362FFF9291EF03B008935CE /* Light_UpTests.swift */,
 			);
-			path = "Light UpTests";
+			path = "Stably Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8362FFE4291EF039008935CE /* Light Up */ = {
+		8362FFE4291EF039008935CE /* Stably */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83620009291EF03B008935CE /* Build configuration list for PBXNativeTarget "Light Up" */;
+			buildConfigurationList = 83620009291EF03B008935CE /* Build configuration list for PBXNativeTarget "Stably" */;
 			buildPhases = (
 				8362FFE1291EF039008935CE /* Sources */,
 				8362FFE2291EF039008935CE /* Frameworks */,
@@ -277,14 +277,14 @@
 			);
 			dependencies = (
 			);
-			name = "Light Up";
+			name = Stably;
 			productName = "Light Up";
-			productReference = 8362FFE5291EF039008935CE /* Light Up.app */;
+			productReference = 8362FFE5291EF039008935CE /* Stably.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8362FFF4291EF03B008935CE /* Light UpTests */ = {
+		8362FFF4291EF03B008935CE /* StablyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8362000C291EF03B008935CE /* Build configuration list for PBXNativeTarget "Light UpTests" */;
+			buildConfigurationList = 8362000C291EF03B008935CE /* Build configuration list for PBXNativeTarget "StablyTests" */;
 			buildPhases = (
 				8362FFF1291EF03B008935CE /* Sources */,
 				8362FFF2291EF03B008935CE /* Frameworks */,
@@ -295,14 +295,14 @@
 			dependencies = (
 				8362FFF7291EF03B008935CE /* PBXTargetDependency */,
 			);
-			name = "Light UpTests";
+			name = StablyTests;
 			productName = "Light UpTests";
-			productReference = 8362FFF5291EF03B008935CE /* Light UpTests.xctest */;
+			productReference = 8362FFF5291EF03B008935CE /* StablyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8362FFFE291EF03B008935CE /* Light UpUITests */ = {
+		8362FFFE291EF03B008935CE /* StablyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8362000F291EF03B008935CE /* Build configuration list for PBXNativeTarget "Light UpUITests" */;
+			buildConfigurationList = 8362000F291EF03B008935CE /* Build configuration list for PBXNativeTarget "StablyUITests" */;
 			buildPhases = (
 				8362FFFB291EF03B008935CE /* Sources */,
 				8362FFFC291EF03B008935CE /* Frameworks */,
@@ -313,9 +313,9 @@
 			dependencies = (
 				83620001291EF03B008935CE /* PBXTargetDependency */,
 			);
-			name = "Light UpUITests";
+			name = StablyUITests;
 			productName = "Light UpUITests";
-			productReference = 8362FFFF291EF03B008935CE /* Light UpUITests.xctest */;
+			productReference = 8362FFFF291EF03B008935CE /* StablyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -341,7 +341,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8362FFE0291EF039008935CE /* Build configuration list for PBXProject "Light Up" */;
+			buildConfigurationList = 8362FFE0291EF039008935CE /* Build configuration list for PBXProject "Stably" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -354,9 +354,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8362FFE4291EF039008935CE /* Light Up */,
-				8362FFF4291EF03B008935CE /* Light UpTests */,
-				8362FFFE291EF03B008935CE /* Light UpUITests */,
+				8362FFE4291EF039008935CE /* Stably */,
+				8362FFF4291EF03B008935CE /* StablyTests */,
+				8362FFFE291EF03B008935CE /* StablyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -455,7 +455,7 @@
 				8362007129215BBB008935CE /* Second Page.swift in Sources */,
 				8362FFEB291EF039008935CE /* ContentView.swift in Sources */,
 				83620075292185A7008935CE /* CorrectButton.swift in Sources */,
-				8362FFE9291EF039008935CE /* Light_UpApp.swift in Sources */,
+				8362FFE9291EF039008935CE /* Stably.swift in Sources */,
 				8362008129229968008935CE /* TorchFunction.swift in Sources */,
 				8362008529229AA1008935CE /* MainPage.swift in Sources */,
 				8362007D292295A8008935CE /* FadeOut.swift in Sources */,
@@ -494,12 +494,12 @@
 /* Begin PBXTargetDependency section */
 		83620001291EF03B008935CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8362FFE4291EF039008935CE /* Light Up */;
+			target = 8362FFE4291EF039008935CE /* Stably */;
 			targetProxy = 83620000291EF03B008935CE /* PBXContainerItemProxy */;
 		};
 		8362FFF7291EF03B008935CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8362FFE4291EF039008935CE /* Light Up */;
+			target = 8362FFE4291EF039008935CE /* Stably */;
 			targetProxy = 8362FFF6291EF03B008935CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -692,7 +692,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light Up.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Light Up";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stably.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stably";
 			};
 			name = Debug;
 		};
@@ -711,7 +711,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light Up.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Light Up";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stably.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stably";
 			};
 			name = Release;
 		};
@@ -752,7 +752,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83620009291EF03B008935CE /* Build configuration list for PBXNativeTarget "Light Up" */ = {
+		83620009291EF03B008935CE /* Build configuration list for PBXNativeTarget "Stably" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8362000A291EF03B008935CE /* Debug */,
@@ -761,7 +761,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8362000C291EF03B008935CE /* Build configuration list for PBXNativeTarget "Light UpTests" */ = {
+		8362000C291EF03B008935CE /* Build configuration list for PBXNativeTarget "StablyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8362000D291EF03B008935CE /* Debug */,
@@ -770,7 +770,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8362000F291EF03B008935CE /* Build configuration list for PBXNativeTarget "Light UpUITests" */ = {
+		8362000F291EF03B008935CE /* Build configuration list for PBXNativeTarget "StablyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83620010291EF03B008935CE /* Debug */,
@@ -779,7 +779,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8362FFE0291EF039008935CE /* Build configuration list for PBXProject "Light Up" */ = {
+		8362FFE0291EF039008935CE /* Build configuration list for PBXProject "Stably" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83620007291EF03B008935CE /* Debug */,

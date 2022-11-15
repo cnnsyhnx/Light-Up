@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Light_Up
+@testable import Stably
 
 final class Light_UpTests: XCTestCase {
 
